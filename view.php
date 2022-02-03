@@ -36,7 +36,7 @@
                                   <a href="db/delete.php?id=<?php echo $row['id']; ?>">
                                   <i class="fas fa-trash-alt" style="color:red;"></i>
                                 </a> |
-                                   <a href="#">update</a> 
+                                   <a href="update.php?id=<?php echo $row['id']; ?>"><i class="fas fa-edit"></i></a> 
                                 </td>
                             </tr>
                             
